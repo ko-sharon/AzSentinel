@@ -79,14 +79,6 @@ entries:
           url: /tag_formatting.html
           output: web
 
-        - title: SigninLogs (AAD)
-          url: /tag_formatting.html
-          output: web
-
-        - title: AuditLogs (AAD)
-          url: /tag_formatting.html
-          output: web
-
       subfolders:
       - title: M365
         output: web
