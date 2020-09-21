@@ -28,6 +28,10 @@ entries:
       output: web, pdf
       type: homepage
 
+  - title: Guides
+    output: web, pdf
+    folderitems:
+
     - title: Implementation
       url: /mydoc_introduction.html
       output: web, pdf
@@ -52,6 +56,10 @@ entries:
         - title: Infrastructure
           url: /tag_formatting.html
           output: web
+
+    - title: Sizing Guide
+      url: /mydoc_introduction.html
+      output: web, pdf
 
   - title: Frameworks
     output: web, pdf
