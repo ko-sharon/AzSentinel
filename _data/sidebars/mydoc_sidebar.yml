@@ -66,34 +66,27 @@ entries:
     output: web, pdf
     folderitems:
     
-    -
+    - title: AzureActivity
+      url: /mydoc_release_notes_60.html
+      output: web, pdf
+
+    - title: OfficeActivity
+      url: /mydoc_release_notes_50.html
+      output: web, pdf   
 
       subfolders:
-      - title: Data Overview
+      - title: Others
         url: /mydoc_introduction.html
         output: web, pdf
         subfolderitems:
         
-        - title: Azure Package
+        - title: Palo Alto
           url: /tag_formatting.html
           output: web
 
-        - title: M365 Package
+        - title: Cisco
           url: /tag_formatting.html
           output: web
-
-        - title: Infrastructure
-          url: /tag_formatting.html
-          output: web
-
-      subfolders:
-      - title: Azure
-        output: web, pdf
-        subfolderitems:
-
-        - title: AzureActivity
-          url: /tag_formatting.html
-          output: web, pdf
                     
   - title: Product References
     output: web, pdf
