@@ -61,8 +61,9 @@ entries:
       url: /mydoc_release_notes_50.html
       output: web, pdf   
 
+
   - title: Data References
-    output: web
+    output: web, pdf
     folderitems:
 
       subfolders:
@@ -75,11 +76,11 @@ entries:
           output: web
 
         - title: SigninLogs (AAD)
-          url: /tag_navigation.html
+          url: /tag_formatting.html
           output: web
 
         - title: AuditLogs (AAD)
-          url: /tag_content_types.html
+          url: /tag_formatting.html
           output: web
 
       subfolders:
