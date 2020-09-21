@@ -31,7 +31,7 @@ Common Azure services data (e.g. Azure Activity, NSG Flow logs, diagnostic logs,
 </div>
 
 <div role="tabpanel" class="tab-pane" id="analyticsrules">
-    <h2>Analytics Rules</h2>
+## Analytics Rules
 
 * Advanced Multistage Attack Detection
 * Suspicious number of resource creation or deployment activies
@@ -57,7 +57,7 @@ Common Azure services data (e.g. Azure Activity, NSG Flow logs, diagnostic logs,
 </div>
 
 <div role="tabpanel" class="tab-pane" id="workbooks">
-    <h2>Workbooks</h2>
+## Workbooks
 
 * Security Operations Efficiency
 * Azure Activity
