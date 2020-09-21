@@ -15,6 +15,6 @@ This repository aims to provide information about security analytics in general,
 
 Applying the basic principles of product management to a security analytics program can help to structure and ensure that the implementation will achieve the intended outcomes.
 
-It is important to first identify the <b>Rationale (why?)</b> of any security analytics program, in order determine the necessary <b>Requirements (what?)</b> which in turn dictate the appropriate <b>Configurations (how?)</b>. 
+It is important to first identify the <b>Rationale (why?)</b> of any security analytics program, in order to determine the necessary <b>Requirements (what?)</b> which in turn dictate the appropriate <b>Configurations (how?)</b>. 
 
 An additional dimension of consideration is the <b>stage of the data processing lifecycle</b>, simplified here into three main stages: <b>Capture, Process, Consume</b>.
