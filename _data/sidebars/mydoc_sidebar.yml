@@ -65,6 +65,8 @@ entries:
   - title: Data References
     output: web, pdf
     folderitems:
+    
+    -
 
       subfolders:
       - title: Data Overview
