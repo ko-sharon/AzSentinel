@@ -1,7 +1,7 @@
 ---
 title: "Using this Repository"
-keywords: getting started
-tags: [getting_started]
+keywords: quickstart
+tags: [quickstart]
 sidebar: mydoc_sidebar
 permalink: index.html
 toc: false
@@ -10,7 +10,7 @@ toc: false
 {% include note.html content="This repository is a community project and does not serve as official Microsoft documentation - feedback and comments are much appreciated. For official Azure Sentinel documentation, <a alt='Azure Sentinel Documentation' href='https://docs.microsoft.com/en-us/azure/sentinel/'>click here</a>." %}
 
 ## Overview
-Follow these instructions to build the theme.
+This repository aims to provide general guidance around deploying and utilizing Azure Sentinel. 
 
 {% include links.html %}
 
