@@ -1,7 +1,7 @@
 ---
 title: "SOC in a Box - Azure Package"
 keywords: coming soon
-tags: [coming_soon]
+tags: [quickstart]
 sidebar: mydoc_sidebar
 permalink: SOCinaBOX_azure.html
 toc: false
@@ -19,7 +19,7 @@ Common Azure services data (e.g. Azure Activity, NSG Flow logs, diagnostic logs,
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="connectors" markdown="1">
     <h2>Connectors</h2>
-    <p>
+
 * Azure Activity
 * Azure Security Center
 * Azure Security Center for IoT
@@ -27,12 +27,12 @@ Common Azure services data (e.g. Azure Activity, NSG Flow logs, diagnostic logs,
 * Azure Firewall
 * Azure Web Application Firewall
 * Security Events
-    </p>
+
 </div>
 
 <div role="tabpanel" class="tab-pane" id="analyticsrules">
     <h2>Analytics Rules</h2>
-    <p>
+
 * Advanced Multistage Attack Detection
 * Suspicious number of resource creation or deployment activies
 * Suspicious granting of permissions to an account
@@ -53,19 +53,19 @@ Common Azure services data (e.g. Azure Activity, NSG Flow logs, diagnostic logs,
 * Suspicious application consent similar to PwnAuth
 * Distributed Password cracking attempts in AzureAD
 * Sign-ins from IPs that attempt sign-ins to disabled accounts
-    </p>
+
 </div>
 
 <div role="tabpanel" class="tab-pane" id="workbooks">
     <h2>Workbooks</h2>
-    <p>
+
 * Security Operations Efficiency
 * Azure Activity
 * ASC Compliance and Protection
 * Azure AD Audit, Activity and Sign-in logs
 * Insecure Protocols
 * Identity & Access
-    </p>
+
 </div>
 </div>
 
