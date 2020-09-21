@@ -6,7 +6,7 @@ entries:
   version: 
   folders:
 
-  - title: Quickstart Guides
+  - title: Overview
     output: web, pdf
     folderitems:
 
@@ -19,9 +19,21 @@ entries:
       url: /guides_implementation.html
       output: web, pdf
 
+    - title: Sizing Guide
+      url: /guides_sizingguide.html
+      output: web, pdf
+
+  - title: Quickstart
+    output: web, pdf
+    folderitems:
+
+    - title: What is SOC in a Box
+      url: /SOCinaBOX_overview.html
+      output: web, pdf
+      type: homepage
+
       subfolders:
-      - title: SOC in a Box (Quick Configs)
-        url: /SOCinaBOX_overview.html
+      - title: Content Packages
         output: web, pdf
         subfolderitems:
 
@@ -36,10 +48,6 @@ entries:
         - title: Infrastructure Package
           url: /SOCinaBOX_infra.html
           output: web, pdf
-
-    - title: Sizing Guide
-      url: /guides_sizingguide.html
-      output: web, pdf
 
   - title: Frameworks
     output: web, pdf
