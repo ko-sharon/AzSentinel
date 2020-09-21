@@ -22,7 +22,7 @@ by Day = bin(startofday(TimeGenerated), 1d)
 | summarize MonthlyBillableMB = sum(BillableMB), MonthlyNotBillableMB = sum(NotBillableMB) //Total size of Billable and Non-Billable sources over 30 days
 | project AvgDailyBillableMB = round(MonthlyBillableMB/30,0), AvgDailyNotBillableMB = round(MonthlyNotBillableMB/30,0) //Avg Daily Log Size of Billable and Non-Billable sources
 ```
-![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AvgDailyMBBillableNonBillable.png)
+![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AvgDailyMBBillableNonBillable.png?raw=true)
 
 ## Average Daily MB: Per Data Source
 
@@ -37,7 +37,7 @@ BillableMB = round(sumif(_BilledSize, _IsBillable == "True")/1024/1024, 0),
 NotBillableMB = round(sumif(_BilledSize, _IsBillable == "False")/1024/1024, 0)
 by Day = bin(startofday(TimeGenerated), 1d)
 ```
-![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AvgDailyMBperDataSource.png)
+![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AvgDailyMBperDataSource.png?raw=true)
 
 ## Absolute Daily MB: Billable vs Non-Billable
 
@@ -52,6 +52,6 @@ BillableMB = round(sumif(_BilledSize, _IsBillable == "True")/1024/1024, 0),
 NotBillableMB = round(sumif(_BilledSize, _IsBillable == "False")/1024/1024, 0)
 by Day = bin(startofday(TimeGenerated), 1d)
 ```
-![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AbsDailyMBBillableNonBillable.png)
+![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AbsDailyMBBillableNonBillable.png?raw=true)
 
 {% include links.html %}
