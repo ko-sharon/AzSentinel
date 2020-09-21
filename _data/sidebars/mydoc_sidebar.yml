@@ -61,6 +61,10 @@ entries:
       url: /frameworks_datadiscovery.html
       output: web, pdf   
 
+    - title: Incidents vs Enrichment
+      url: /frameworks_incidentsvsenrichment.html
+      output: web, pdf
+
   - title: Advanced Content
     output: web, pdf
     folderitems:
