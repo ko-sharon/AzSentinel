@@ -3,13 +3,13 @@ repository: tomjoht/documentation-theme-jekyll
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Azure Sentinel Library
+topnav_title: Azure Sentinel Repository
 # this appears on the top navigation bar next to the home button
 
-site_title: Azure Sentinel Library
+site_title: Azure Sentinel Repository
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Your company
+#company_name: NA
 # this appears in the footer
 
 github_editme_path: ko-sharon/AzSentinel/
