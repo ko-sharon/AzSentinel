@@ -94,29 +94,7 @@ entries:
         - title: AzureActivity
           url: /tag_formatting.html
           output: web, pdf
-          
-      -
-
-      subfolders:
-      - title: M365
-        output: web, pdf
-        subfolderitems:
-
-        - title: OfficeActivity
-          url: /tag_formatting.html
-          output: web, pdf
-          
-      -
-
-      subfolders:
-      - title: Others
-        output: web, pdf
-        subfolderitems:
-
-        - title: Palo Alto
-          url: /tag_formatting.html
-          output: web, pdf
-          
+                    
   - title: Product References
     output: web, pdf
     folderitems:
