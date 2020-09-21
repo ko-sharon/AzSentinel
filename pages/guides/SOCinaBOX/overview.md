@@ -27,15 +27,15 @@ The intention of SOC in a Box is to provide guidance around what configurations 
 </thead>
 <tbody>
 <tr>
-<td markdown="span"><a alt='Azure' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_azure.html/'>Azure</a></td>
+<td markdown="span"><a alt='Azure' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_azure.html'>Azure</a></td>
 <td markdown="span">Common Azure services data (e.g. Azure Activity, NSG Flow logs, diagnostic logs, etc.)</td>
 </tr>
 <tr>
-<td markdown="span"><a alt='M365' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_m365.html/'>M365</a></td>
+<td markdown="span"><a alt='M365' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_m365.html'>M365</a></td>
 <td markdown="span">Common Microsoft suite data sources (e.g. AAD, Office 365, MTP solutions, etc)</td>
 </tr>
 <tr>
-<td markdown="span"><a alt='Infra' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_infra.html/'>Infrastructure</a></td>
+<td markdown="span"><a alt='Infra' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_infra.html'>Infrastructure</a></td>
 <td markdown="span">Common infrastructure data sources (e.g. Windows Security Events, Syslog, etc.)</td>
 </tr>
 </tbody>
