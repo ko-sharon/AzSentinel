@@ -10,5 +10,5 @@ toc: false
 ## Coming Soon
 
 
-{% include links.html %}
+![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/SOCinaBOX/SOCinaBOX.svg?raw=true)
 
