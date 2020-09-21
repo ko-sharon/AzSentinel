@@ -89,12 +89,8 @@ entries:
         output: web, pdf
         subfolderitems:
         
-        - title: Palo Alto
-          url: /schema_paloalto.html
-          output: web
-
-        - title: Cisco
-          url: /schema_cisco.html
+        - title: Coming Soon
+          url: /schema_azureactivity.html
           output: web
                     
   - title: References
