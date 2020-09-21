@@ -58,14 +58,14 @@ Common Azure services data (e.g. Azure Activity, NSG Flow logs, diagnostic logs,
 
 <div role="tabpanel" class="tab-pane" id="workbooks">
     <h2>Workbooks</h2>
-<p>
-* Security Operations Efficiency
-* Azure Activity
-* ASC Compliance and Protection
-* Azure AD Audit, Activity and Sign-in logs
-* Insecure Protocols
-* Identity & Access
-</p>
+<ul>
+<li> Security Operations Efficiency</li>
+<li> Azure Activity</li>
+<li> ASC Compliance and Protection</li>
+<li> Azure AD Audit, Activity and Sign-in logs</li>
+<li> Insecure Protocols</li>
+<li> Identity & Access</li>
+</ul>
 </div>
 </div>
 
