@@ -21,20 +21,21 @@ entries:
 
       subfolders:
       - title: SOC in a Box (Quick Configs)
-        output: web
+        url: /SOCinaBOX_overview.html
+        output: web, pdf
         subfolderitems:
 
         - title: Azure Package
           url: /SOCinaBOX_azure.html
-          output: web
+          output: web, pdf
 
         - title: M365 Package
           url: /SOCinaBOX_m365.html
-          output: web
+          output: web, pdf
 
         - title: Infrastructure Package
           url: /SOCinaBOX_infra.html
-          output: web
+          output: web, pdf
 
     - title: Sizing Guide
       url: /guides_sizingguide.html
