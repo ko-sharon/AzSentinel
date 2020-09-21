@@ -23,7 +23,7 @@ entries:
       url: /guides_sizingguide.html
       output: web, pdf
 
-  - title: Quickstart
+  - title: SOC in a Box Quickstart
     output: web, pdf
     folderitems:
 
@@ -37,15 +37,15 @@ entries:
         output: web, pdf
         subfolderitems:
 
-        - title: Azure Package
+        - title: Azure
           url: /SOCinaBOX_azure.html
           output: web, pdf
 
-        - title: M365 Package
+        - title: M365
           url: /SOCinaBOX_m365.html
           output: web, pdf
 
-        - title: Infrastructure Package
+        - title: Infrastructure
           url: /SOCinaBOX_infra.html
           output: web, pdf
 
