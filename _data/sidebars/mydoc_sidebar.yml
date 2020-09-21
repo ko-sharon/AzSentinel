@@ -84,7 +84,7 @@ entries:
           url: /schema_cisco.html
           output: web
                     
-  - title: Product References
+  - title: References
     output: web, pdf
     folderitems:
 
