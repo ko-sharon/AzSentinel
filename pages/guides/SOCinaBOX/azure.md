@@ -18,25 +18,54 @@ Common Azure services data (e.g. Azure Activity, NSG Flow logs, diagnostic logs,
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="connectors" markdown="1">
-## Connectors
-
-Praesent sit amet fermentum leo. Aliquam feugiat, 
-
-1.  nibh in u ltrices mattis
-2.  felis ipsum venenatis metus, vel vehicula libero mauris a enim. Sed placerat est ac lectus vestibulum tempor. 
-    * Quisque ut condimentum massa. 
-    * ut condimentum massa. 
-
-> Proin venenatis leo id urna cursus blandit. Vivamus sit amet hendrerit metus.
+    <h2>Connectors</h2>
+    <p>
+* Azure Activity
+* Azure Security Center
+* Azure Security Center for IoT
+* Azure Active Directory
+* Azure Firewall
+* Azure Web Application Firewall
+* Security Events
+    </p>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="analyticsrules">
     <h2>Analytics Rules</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel sollicitudin felis. Sed eu arcu sed ipsum semper luctus eu a tortor. Suspendisse id leo eu metus laoreet varius. Mauris consequat accumsan ex, a iaculis metus fermentum a. Praesent sit amet fermentum leo. Aliquam feugiat, nibh in u ltrices mattis, felis ipsum venenatis metus, vel vehicula libero mauris a enim. Sed placerat est ac lectus vestibulum tempor. Quisque ut condimentum massa. Proin venenatis leo id urna cursus blandit. Vivamus sit amet hendrerit metus.about</p></div>
+    <p>
+* Advanced Multistage Attack Detection
+* Suspicious number of resource creation or deployment activies
+* Suspicious granting of permissions to an account
+* Process execution frequency anomaly
+* RDP Nesting
+* Security Event log cleared
+* Group added to built in domain local or global group
+* Powershell Empire cmdlets seen in command line
+* User account enabled and disabled within 10 mins
+* Rare RDP Connections
+* Scheduled Security Events
+* AD account with don't expire password - disabled
+* Known Phosphorus group domains/IP
+* Known IRIDIUM IP
+* Known GALLIUM domains and hashes
+* Known Strontium group domains
+* Anomalous sign-in location by user account and authenticating application
+* Suspicious application consent similar to PwnAuth
+* Distributed Password cracking attempts in AzureAD
+* Sign-ins from IPs that attempt sign-ins to disabled accounts
+    </p>
+</div>
 
 <div role="tabpanel" class="tab-pane" id="workbooks">
     <h2>Workbooks</h2>
-    <p>Vel vehicula libero mauris a enim. Sed placerat est ac lectus vestibulum tempor. Quisque ut condimentum massa. Proin venenatis leo id urna cursus blandit. Vivamus sit amet hendrerit metus.</p>
+    <p>
+* Security Operations Efficiency
+* Azure Activity
+* ASC Compliance and Protection
+* Azure AD Audit, Activity and Sign-in logs
+* Insecure Protocols
+* Identity & Access
+    </p>
 </div>
 </div>
 
