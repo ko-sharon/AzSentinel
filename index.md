@@ -19,4 +19,4 @@ Applying the basic principles of product management to a security analytics prog
 * This will then determine the necessary <b>Requirements (what?)</b> 
 * Which in turn dictate the appropriate <b>Configurations (how?)</b>
 
-An additional dimension of consideration is the <b>data processing lifecycle stage</b>, simplified here into three main stages: <b>Capture, Process, Consume</b>.
+An additional dimension of consideration is the <b>data processing lifecycle</b>, simplified here into three main stages: <b>Capture, Process, Consume</b>.
