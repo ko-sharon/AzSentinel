@@ -12,13 +12,13 @@ tags: [sizing]
 Sizing is (and always has been) a tricky issue with SIEMs, even if you do have an existing tool - the unit of measure may be based on different metrics (example GB/day vs Events per Second, EPS) for different vendors. 
 
 ### I have an Existing SIEM/LMS
-*If your existing SIEM/LMS is already measured based on data volume ingested (GB/day), then that would be the same as Azure Sentinel.
-*Else if your existing solution is measured based on other metrics (EPS etc.), you can typically pivot into the log / data storage portal to look for how much data has been stored over the past perhaps 30 days and divide the absolute amount by 30 to get the average GB/day. 
-*The above would be more accurate than assuming a generic average packet size per event and multiplying that by EPS observed (given that packet sizes can vary a lot depending on the data source).
+* If your existing SIEM/LMS is already measured based on data volume ingested (GB/day), then that would be the same as Azure Sentinel.
+* Else if your existing solution is measured based on other metrics (EPS etc.), you can typically pivot into the log / data storage portal to look for how much data has been stored over the past perhaps 30 days and divide the absolute amount by 30 to get the average GB/day. 
+* The above would be more accurate than assuming a generic average packet size per event and multiplying that by EPS observed (given that packet sizes can vary a lot depending on the data source).
 
 ### I do not have an Existing SIEM/LMS
-*Ideally, logging your data over a period of time would provide the most accurate gauge on how much data is generated. The KQL queries in the next section can then be used to determine specifically how much data is generated per data source (and whether it is billable or not).
-*Otherwise, there are many publicly available calculators that provide data volume approximations (GB/day) based on estimated packet size and a corresponding EPS per data source. This is useful in providing a rough order of magnitude.
+* Ideally, logging your data over a period of time would provide the most accurate gauge on how much data is generated. The KQL queries in the next section can then be used to determine specifically how much data is generated per data source (and whether it is billable or not).
+* Otherwise, there are many publicly available calculators that provide data volume approximations (GB/day) based on estimated packet size and a corresponding EPS per data source. This is useful in providing a rough order of magnitude.
 
 ## Post-Ingestion into Azure Sentinel
 
