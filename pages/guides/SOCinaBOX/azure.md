@@ -32,28 +32,28 @@ Common Azure services data (e.g. Azure Activity, NSG Flow logs, diagnostic logs,
 
 <div role="tabpanel" class="tab-pane" id="analyticsrules">
     <h2>Analytics </h2>
-<p>
-* Advanced Multistage Attack Detection
-* Suspicious number of resource creation or deployment activies
-* Suspicious granting of permissions to an account
-* Process execution frequency anomaly
-* RDP Nesting
-* Security Event log cleared
-* Group added to built in domain local or global group
-* Powershell Empire cmdlets seen in command line
-* User account enabled and disabled within 10 mins
-* Rare RDP Connections
-* Scheduled Security Events
-* AD account with don't expire password - disabled
-* Known Phosphorus group domains/IP
-* Known IRIDIUM IP
-* Known GALLIUM domains and hashes
-* Known Strontium group domains
-* Anomalous sign-in location by user account and authenticating application
-* Suspicious application consent similar to PwnAuth
-* Distributed Password cracking attempts in AzureAD
-* Sign-ins from IPs that attempt sign-ins to disabled accounts
-    </p>
+<ul>
+<li> Advanced Multistage Attack Detection</li>
+<li> Suspicious number of resource creation or deployment activies</li>
+<li> Suspicious granting of permissions to an account</li>
+<li> Process execution frequency anomaly</li>
+<li> RDP Nesting</li>
+<li> Security Event log cleared</li>
+<li> Group added to built in domain local or global group</li>
+<li> Powershell Empire cmdlets seen in command line</li>
+<li> User account enabled and disabled within 10 mins</li>
+<li> Rare RDP Connections</li>
+<li> Scheduled Security Events</li>
+<li> AD account with don't expire password - disabled</li>
+<li> Known Phosphorus group domains/IP</li>
+<li> Known IRIDIUM IP</li>
+<li> Known GALLIUM domains and hashes</li>
+<li> Known Strontium group domains</li>
+<li> Anomalous sign-in location by user account and authenticating application</li>
+<li> Suspicious application consent similar to PwnAuth</li>
+<li> Distributed Password cracking attempts in AzureAD</li>
+<li> Sign-ins from IPs that attempt sign-ins to disabled accounts</li>
+    </ul>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="workbooks">
