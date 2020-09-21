@@ -10,8 +10,8 @@ tags: [sizing]
 ## Average Daily MB: Billable vs Non-Billable
 
 This query will calculate the Total Daily Volume (MB) of Billable and Non-Billable data sources ingested, over a 30-day Average.
-![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AvgDailyMBBillableNonBillable.png)
 
+![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AvgDailyMBBillableNonBillable.png)
 ```
 // To calculate average daily log size (MB)
 union withsource = source * 
@@ -28,6 +28,7 @@ by Day = bin(startofday(TimeGenerated), 1d)
 
 This query will calculate the Daily Volume (MB) of Billable and Non-Billable data ingested, per Data Source, over a 30-day Average.
 
+![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AvgDailyMBperDataSource.png)
 ```
 // To view logs by day (MB)
 union withsource = source * 
@@ -42,6 +43,7 @@ by Day = bin(startofday(TimeGenerated), 1d)
 
 This query will calculate the Total Daily MB of Billable and Non-Billable data sources ingested, over the past 30 days.
 
+![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AbsDailyMBBillableNonBillable.png)
 ```
 // To view logs by day (MB)
 union withsource = source * 
