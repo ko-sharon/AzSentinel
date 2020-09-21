@@ -10,12 +10,12 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: What is Azure Sentinel
+    - title: Using this Repository
       url: /index.html
       output: web, pdf
       type: homepage
 
-    - title: Implementation
+    - title: Azure Sentinel Implementation
       url: /guides_implementation.html
       output: web, pdf
 
