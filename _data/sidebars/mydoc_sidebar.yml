@@ -66,9 +66,23 @@ entries:
     output: web, pdf
     folderitems:
 
-    - title: Data Overview
-      url: /mydoc_introduction.html
-      output: web, pdf
+      subfolders:
+      - title: Data Overview
+        url: /mydoc_introduction.html
+        output: web, pdf
+        subfolderitems:
+        
+        - title: Azure Package
+          url: /tag_formatting.html
+          output: web
+
+        - title: M365 Package
+          url: /tag_formatting.html
+          output: web
+
+        - title: Infrastructure
+          url: /tag_formatting.html
+          output: web
 
       subfolders:
       - title: Azure
