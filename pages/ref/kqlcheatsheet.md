@@ -8,7 +8,3 @@ toc: false
 ---
 
 ## Coming Soon
-
-
-{% include links.html %}
-
