@@ -45,11 +45,11 @@ entries:
     folderitems:
 
     - title: Use Case Development
-      url: /mydoc_release_notes_60.html
+      url: /frameworks_usecasedev.html
       output: web, pdf
 
     - title: Data Discovery
-      url: /mydoc_release_notes_50.html
+      url: /frameworks_datadiscovery.html
       output: web, pdf   
 
   - title: Advanced Content
@@ -63,25 +63,25 @@ entries:
     folderitems:
     
     - title: AzureActivity
-      url: /mydoc_release_notes_60.html
+      url: /schema_azureactivity.html
       output: web, pdf
 
     - title: OfficeActivity
-      url: /mydoc_release_notes_50.html
+      url: /schema_officeactivity.html
       output: web, pdf   
 
       subfolders:
       - title: Others
-        url: /mydoc_introduction.html
+        url: /schema_others.html
         output: web, pdf
         subfolderitems:
         
         - title: Palo Alto
-          url: /tag_formatting.html
+          url: /schema_paloalto.html
           output: web
 
         - title: Cisco
-          url: /tag_formatting.html
+          url: /schema_cisco.html
           output: web
                     
   - title: Product References
@@ -89,5 +89,5 @@ entries:
     folderitems:
 
     - title: KQL Cheat Sheet
-      url: /mydoc_release_notes_60.html
+      url: /ref_kqlcheatsheet.html
       output: web, pdf
