@@ -1,9 +1,9 @@
 ---
-title: "Getting started with Azure Sentinel"
-keywords: getting started
+title: "Azure Sentinel Implementation"
+keywords: implementation
 tags: [getting_started]
 sidebar: mydoc_sidebar
-permalink: index.html
+permalink: guides_implementation.html
 summary: These brief instructions will help you get started quickly with Azure Sentinel and security analytics best practices / guidance.
 ---
 
