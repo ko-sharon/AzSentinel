@@ -18,7 +18,7 @@ Common Azure services data (e.g. Azure Activity, NSG Flow logs, diagnostic logs,
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="connectors" markdown="1">
-##Connectors
+## Connectors
 
 * Azure Activity
 * Azure Security Center
