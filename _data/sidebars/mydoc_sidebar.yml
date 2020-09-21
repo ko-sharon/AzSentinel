@@ -32,6 +32,10 @@ entries:
       url: /mydoc_introduction.html
       output: web, pdf
 
+    - title: Sizing Guide
+      url: /mydoc_introduction.html
+      output: web, pdf
+
       subfolders:
       - title: SOC in a Box (Quick Configs)
         output: web
