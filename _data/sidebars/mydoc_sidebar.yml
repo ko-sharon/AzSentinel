@@ -65,10 +65,6 @@ entries:
     output: web
     folderitems:
 
-    - title: Tag archives overview
-      url: /mydoc_tag_archives_overview.html
-      output: web
-
       subfolders:
       - title: Azure
         output: web
