@@ -33,11 +33,7 @@ entries:
     folderitems:
 
     - title: Implementation
-      url: /mydoc_introduction.html
-      output: web, pdf
-
-    - title: Sizing Guide
-      url: /mydoc_introduction.html
+      url: /guides_implementation.html
       output: web, pdf
 
       subfolders:
