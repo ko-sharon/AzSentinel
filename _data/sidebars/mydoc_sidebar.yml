@@ -37,7 +37,7 @@ entries:
           output: web
 
     - title: Sizing Guide
-      url: /mydoc_introduction.html
+      url: /guides_sizingguide.html
       output: web, pdf
 
   - title: Frameworks
