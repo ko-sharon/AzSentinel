@@ -12,13 +12,13 @@ toc: false
 Common Azure services data (e.g. Azure Activity, NSG Flow logs, diagnostic logs, etc.).
 
 <ul id="profileTabs" class="nav nav-tabs">
-    <li class="active"><a class="noCrossRef" href="#profile" data-toggle="tab">Connectors</a></li>
+    <li class="active"><a class="noCrossRef" href="#connectors" data-toggle="tab">Connectors</a></li>
     <li><a class="noCrossRef" href="#about" data-toggle="tab">Analytics Rules</a></li>
     <li><a class="noCrossRef" href="#match" data-toggle="tab">Workbooks</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="connectors" markdown="1">
-    <h2>Connectors</h2>
+##Connectors
 
 * Azure Activity
 * Azure Security Center
