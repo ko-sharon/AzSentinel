@@ -16,8 +16,8 @@ The intention of SOC in a Box is to provide guidance around what configurations 
 
 <table>
 <colgroup>
-<col width="30%" />
-<col width="70%" />
+<col width="20%" />
+<col width="80%" />
 </colgroup>
 <thead>
 <tr class="header">
