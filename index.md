@@ -11,7 +11,7 @@ toc: false
 ## Overview
 This repository aims to provide information about security analytics in general, and also in the context of operationalizing it in Azure Sentinel. 
 
-->![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/frameworks/ProblemStatement.svg?raw=true)<-
+![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/frameworks/ProblemStatement.svg?raw=true)
 
 Applying the basic principles of product management to a security analytics program can help to structure and ensure that the implementation will achieve the intended outcomes.
 
