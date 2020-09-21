@@ -13,8 +13,8 @@ Common Azure services data (e.g. Azure Activity, NSG Flow logs, diagnostic logs,
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#connectors" data-toggle="tab">Connectors</a></li>
-    <li><a class="noCrossRef" href="#about" data-toggle="tab">Analytics Rules</a></li>
-    <li><a class="noCrossRef" href="#match" data-toggle="tab">Workbooks</a></li>
+    <li><a class="noCrossRef" href="#analyticsrules" data-toggle="tab">Analytics Rules</a></li>
+    <li><a class="noCrossRef" href="#workbooks" data-toggle="tab">Workbooks</a></li>
 </ul>
   <div class="tab-content">
 <div role="tabpanel" class="tab-pane active" id="connectors" markdown="1">
