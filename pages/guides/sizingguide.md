@@ -9,7 +9,7 @@ tags: [sizing]
 
 ## Pre-Ingestion into Sentinel
 
-Sizing is (and always has been) a tricky issue with SIEMs, even if you do have an existing tool - the unit of measure may be based on different metrics (example GB/day vs Events per Second, EPS) for different vendors. 
+Sizing is (and always has been) a tricky issue with SIEMs, even if you do have an existing tool, the unit of measure may be based on different metrics (example GB/day vs Events per Second, EPS) for different vendors. 
 
 ### I have an Existing SIEM/LMS
 * If your existing SIEM/LMS is already measured based on data volume ingested (GB/day), then that would be the same as Azure Sentinel.
