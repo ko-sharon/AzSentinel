@@ -14,7 +14,7 @@ This repository aims to provide information about security analytics in general,
 
 ![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/frameworks/ProblemStatement.svg?raw=true)
 
-Applying the basic principles of product management to a security analytics program can help to structure and ensure effective implementation. 
+Applying the basic principles of product management to a security analytics program can help to structure and ensure that the implementation will achieve the intended outcomes.
 
 It is important to first identify the <b>Rationale (why?)</b> of any security analytics program, in order determine the necessary <b>Requirements (what?)</b> which in turn dictate the appropriate <b>Configurations (how?)</b>. 
 
