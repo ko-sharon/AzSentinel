@@ -6,20 +6,7 @@ entries:
   version: 
   folders:
 
-  - title:
-    output: pdf
-    type: frontmatter
-    folderitems:
-    - title:
-      url: /titlepage.html
-      output: pdf
-      type: frontmatter
-    - title:
-      url: /tocpage.html
-      output: pdf
-      type: frontmatter
-
-  - title: Overview
+  - title: Guides
     output: web, pdf
     folderitems:
 
@@ -27,10 +14,6 @@ entries:
       url: /index.html
       output: web, pdf
       type: homepage
-
-  - title: Guides
-    output: web, pdf
-    folderitems:
 
     - title: Implementation
       url: /guides_implementation.html
