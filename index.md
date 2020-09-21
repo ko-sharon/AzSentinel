@@ -1,7 +1,7 @@
 ---
 title: "Using this Repository"
 keywords: quickstart
-tags: [quickstart]
+tags: false
 sidebar: mydoc_sidebar
 permalink: index.html
 toc: false
