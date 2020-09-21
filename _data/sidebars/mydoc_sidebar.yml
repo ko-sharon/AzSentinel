@@ -6,7 +6,7 @@ entries:
   version: 
   folders:
 
-  - title: Overview
+  - title: General
     output: web, pdf
     folderitems:
 
