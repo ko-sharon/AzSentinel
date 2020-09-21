@@ -25,15 +25,15 @@ entries:
         subfolderitems:
 
         - title: Azure Package
-          url: /tag_formatting.html
+          url: /SOCinaBOX_azure.html
           output: web
 
         - title: M365 Package
-          url: /tag_formatting.html
+          url: /SOCinaBOX_m365.html
           output: web
 
         - title: Infrastructure
-          url: /tag_formatting.html
+          url: /SOCinaBOX_infra.html
           output: web
 
     - title: Sizing Guide
