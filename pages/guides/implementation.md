@@ -1,7 +1,7 @@
 ---
 title: "Azure Sentinel Implementation"
 keywords: implementation
-tags: [getting_started]
+tags: [quickstart]
 sidebar: mydoc_sidebar
 permalink: guides_implementation.html
 summary: These brief instructions will help you get started quickly with Azure Sentinel and security analytics best practices / guidance.
