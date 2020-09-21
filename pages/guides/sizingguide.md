@@ -2,7 +2,9 @@
 title: Sizing Guide
 sidebar: mydoc_sidebar
 permalink: guides_sizingguide.html
-folder: mydoc
+folder: guides
+keywords: sizing
+tags: [sizing]
 ---
 
 ## Average Daily MB: Billable vs Non-Billable
