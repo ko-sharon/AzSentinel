@@ -31,8 +31,8 @@ Common Azure services data (e.g. Azure Activity, NSG Flow logs, diagnostic logs,
 </div>
 
 <div role="tabpanel" class="tab-pane" id="analyticsrules">
-## Analytics Rules
-
+    <h2>Analytics </h2>
+<p>
 * Advanced Multistage Attack Detection
 * Suspicious number of resource creation or deployment activies
 * Suspicious granting of permissions to an account
@@ -53,19 +53,19 @@ Common Azure services data (e.g. Azure Activity, NSG Flow logs, diagnostic logs,
 * Suspicious application consent similar to PwnAuth
 * Distributed Password cracking attempts in AzureAD
 * Sign-ins from IPs that attempt sign-ins to disabled accounts
-
+    </p>
 </div>
 
 <div role="tabpanel" class="tab-pane" id="workbooks">
-## Workbooks
-
+    <h2>Workbooks</h2>
+<p>
 * Security Operations Efficiency
 * Azure Activity
 * ASC Compliance and Protection
 * Azure AD Audit, Activity and Sign-in logs
 * Insecure Protocols
 * Identity & Access
-
+</p>
 </div>
 </div>
 
