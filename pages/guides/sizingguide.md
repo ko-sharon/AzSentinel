@@ -10,6 +10,7 @@ tags: [sizing]
 ## Average Daily MB: Billable vs Non-Billable
 
 This query will calculate the Total Daily Volume (MB) of Billable and Non-Billable data sources ingested, over a 30-day Average.
+![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AvgDailyMBBillableNonBillable.png)
 
 ```
 // To calculate average daily log size (MB)
