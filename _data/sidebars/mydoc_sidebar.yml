@@ -6,7 +6,7 @@ entries:
   version: 
   folders:
 
-  - title: Guides
+  - title: Quickstart Guides
     output: web, pdf
     folderitems:
 
@@ -32,7 +32,7 @@ entries:
           url: /SOCinaBOX_m365.html
           output: web
 
-        - title: Infrastructure
+        - title: Infrastructure Package
           url: /SOCinaBOX_infra.html
           output: web
 
@@ -52,6 +52,11 @@ entries:
       url: /mydoc_release_notes_50.html
       output: web, pdf   
 
+  - title: Advanced Content
+    output: web, pdf
+    folderitems:
+    
+    -
 
   - title: Data References
     output: web, pdf
