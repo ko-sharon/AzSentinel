@@ -3,7 +3,7 @@
 entries:
 - title: sidebar
   product: Azure Sentinel Library
-  version: 1.0
+  version: 
   folders:
 
   - title:
@@ -72,30 +72,34 @@ entries:
 
       subfolders:
       - title: Azure
-        output: web
+        output: web, pdf
         subfolderitems:
 
         - title: AzureActivity
           url: /tag_formatting.html
-          output: web
+          output: web, pdf
+          
+      -
 
       subfolders:
       - title: M365
-        output: web
+        output: web, pdf
         subfolderitems:
 
         - title: OfficeActivity
           url: /tag_formatting.html
-          output: web
+          output: web, pdf
+          
+      -
 
       subfolders:
       - title: Others
-        output: web
+        output: web, pdf
         subfolderitems:
 
         - title: Palo Alto
           url: /tag_formatting.html
-          output: web
+          output: web, pdf
           
   - title: Product References
     output: web, pdf
