@@ -11,7 +11,6 @@ tags: [sizing]
 
 This query will calculate the Total Daily Volume (MB) of Billable and Non-Billable data sources ingested, over a 30-day Average.
 
-![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AvgDailyMBBillableNonBillable.png)
 ```
 // To calculate average daily log size (MB)
 union withsource = source * 
@@ -23,12 +22,12 @@ by Day = bin(startofday(TimeGenerated), 1d)
 | summarize MonthlyBillableMB = sum(BillableMB), MonthlyNotBillableMB = sum(NotBillableMB) //Total size of Billable and Non-Billable sources over 30 days
 | project AvgDailyBillableMB = round(MonthlyBillableMB/30,0), AvgDailyNotBillableMB = round(MonthlyNotBillableMB/30,0) //Avg Daily Log Size of Billable and Non-Billable sources
 ```
+![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AvgDailyMBBillableNonBillable.png)
 
 ## Average Daily MB: Per Data Source
 
 This query will calculate the Daily Volume (MB) of Billable and Non-Billable data ingested, per Data Source, over a 30-day Average.
 
-![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AvgDailyMBperDataSource.png)
 ```
 // To view logs by day (MB)
 union withsource = source * 
@@ -38,12 +37,12 @@ BillableMB = round(sumif(_BilledSize, _IsBillable == "True")/1024/1024, 0),
 NotBillableMB = round(sumif(_BilledSize, _IsBillable == "False")/1024/1024, 0)
 by Day = bin(startofday(TimeGenerated), 1d)
 ```
+![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AvgDailyMBperDataSource.png)
 
 ## Absolute Daily MB: Billable vs Non-Billable
 
 This query will calculate the Total Daily MB of Billable and Non-Billable data sources ingested, over the past 30 days.
 
-![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AbsDailyMBBillableNonBillable.png)
 ```
 // To view logs by day (MB)
 union withsource = source * 
@@ -53,5 +52,6 @@ BillableMB = round(sumif(_BilledSize, _IsBillable == "True")/1024/1024, 0),
 NotBillableMB = round(sumif(_BilledSize, _IsBillable == "False")/1024/1024, 0)
 by Day = bin(startofday(TimeGenerated), 1d)
 ```
+![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AbsDailyMBBillableNonBillable.png)
 
 {% include links.html %}
