@@ -78,7 +78,7 @@ These brief instructions will help you get started quickly with Azure Sentinel -
 </table>
 
 ### 2 - Enable Data Connectors
-{% include tip.html content="Refer to <a alt='SOCinaBOX' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_overview.html'>SOC in a Box</a> for guidance on quick deployment packages (based on data sources relevant to you)." %}
+{% include tip.html content="Refer to <a alt='SOCinaBOX' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_overview.html'>SOC in a Box</a> for guidance on which data connectors to enable (based on data sources relevant to you)." %}
 
 <table>
 <colgroup>
