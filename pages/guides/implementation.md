@@ -12,7 +12,7 @@ permalink: guides_implementation.html
 
 These brief instructions will help you get started quickly with Azure Sentinel - ie. a simple and typical deployment. For more advanced deployments, additional considerations may need to be made, refer to <a alt='techcommunitypost' href='https://techcommunity.microsoft.com/t5/azure-sentinel/best-practices-for-designing-an-azure-sentinel-or-azure-security/ba-p/832574'>this techcommunity post</a> for more.
 
-### 1 - Creating a Workspace
+### 1 - Creating a Workspace and Instance
 
 <table>
 <colgroup>
@@ -36,12 +36,12 @@ These brief instructions will help you get started quickly with Azure Sentinel -
 </tr>
 <tr>
 <td markdown="span">1B</td>
-<td markdown="span">In the search bar, type `Azure Sentinel`</td>
+<td markdown="span">In the search bar, type **Azure Sentinel**</td>
 <td markdown="span">![1b](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/implementation/config_1b.png?raw=true)</td>
 </tr>
 <tr>
 <td markdown="span">1C</td>
-<td markdown="span">Click on `Add`</td>
+<td markdown="span">Click on **Add**</td>
 <td markdown="span">![1c](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/implementation/config_1c.png?raw=true)</td>
 </tr>
 <tr>
@@ -77,3 +77,42 @@ These brief instructions will help you get started quickly with Azure Sentinel -
 </tbody>
 </table>
 
+### 2 - Enable Data Connectors
+
+<table>
+<colgroup>
+<col width="10%" />
+<col width="30%" />
+<col width="60%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>S/N</th>
+<th>Step</th>
+<th>Illustration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td markdown="span">2A</td>
+<td markdown="span">In the Azure Sentinel instance, navigate to **Data Connectors**.</td>
+<td markdown="span">
+![2a](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/implementation/config_2a.png?raw=true)</td>
+</tr>
+<tr>
+<td markdown="span">2B</td>
+<td markdown="span">Search for the desired connector and click on **Open Connector Page**.</td>
+<td markdown="span">![2b](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/implementation/config_2b.png?raw=true)</td>
+</tr>
+<tr>
+<td markdown="span">2C</td>
+<td markdown="span">Follow the instructions, these differ for each data connector.</td>
+<td markdown="span">![2c](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/implementation/config_2c.png?raw=true)</td>
+</tr>
+<tr>
+<td markdown="span">2D</td>
+<td markdown="span">After the data connector has been successfully enabled, refresh the page. Depending on the data connector, once data starts flowing in you will see the following.</td>
+<td markdown="span">![2d](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/implementation/config_2d.png?raw=true)</td>
+</tr>
+</tbody>
+</table>
