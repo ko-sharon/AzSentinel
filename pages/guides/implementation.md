@@ -22,6 +22,7 @@ These brief instructions will help you get started quickly with Azure Sentinel -
 </colgroup>
 <thead>
 <tr class="header">
+<th>S/N</th>
 <th>Step</th>
 <th>Illustration</th>
 </tr>
