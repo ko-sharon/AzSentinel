@@ -58,6 +58,21 @@ These brief instructions will help you get started quickly with Azure Sentinel -
 <td markdown="span">**Pay-as-you-go** is the default pricing tier, you can switch to **Capacity Reservation** later if necessary, see <a alt='capres' href='https://ko-sharon.github.io/AzSentinel/guides_capres.html'>here</a>.</td>
 <td markdown="span">![1f](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/implementation/config_1f.png?raw=true)</td></td>
 </tr>
+<tr>
+<td markdown="span">1G</td>
+<td markdown="span">[optional] Specify tags if relevant.</td>
+<td markdown="span">![1g](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/implementation/config_1g.png?raw=true)</td></td>
+</tr>
+<tr>
+<td markdown="span">1H</td>
+<td markdown="span">Click **Create** after validation has passed.</td>
+<td markdown="span">![1h](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/implementation/config_1h.png?raw=true)</td></td>
+</tr>
+<tr>
+<td markdown="span">1I</td>
+<td markdown="span">Click **Add** once the new instance appears.</td>
+<td markdown="span">![1i](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/implementation/config_1i.png?raw=true)</td></td>
+</tr>
 </tbody>
 </table>
 
