@@ -69,7 +69,9 @@ entries:
     output: web, pdf
     folderitems:
     
-    -
+    - title: Windows Event Logging
+      url: /adv_winevents.html
+      output: web, pdf
 
   - title: Data Schema
     output: web, pdf
