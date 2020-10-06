@@ -18,7 +18,7 @@ Sizing is (and always has been) a tricky issue with SIEMs, even if you do have a
 
 ### I do not have an Existing SIEM/LMS
 * Ideally, logging your data over a period of time would provide the most accurate gauge on how much data is generated. The KQL queries in the next section can then be used to determine specifically how much data is generated per data source (and whether it is billable or not).
-* Otherwise, there are many publicly available calculators that provide data volume approximations (GB/day) based on estimated packet size and a corresponding EPS per data source. This is useful in providing a rough order of magnitude.
+* Otherwise, there are many publicly available calculators (for example <a alt='calculator' href='https://siemsizingcalculator.logpoint.com/'>this link</a>) that provide data volume approximations (GB/day) based on estimated packet size and a corresponding EPS per data source. This is useful in providing a rough order of magnitude.
 
 ## Post-Ingestion into Azure Sentinel
 
