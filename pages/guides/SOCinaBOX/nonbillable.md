@@ -9,7 +9,7 @@ toc: false
 
 ## Non Billable Content Package
 
-Non billable data sources (e.g. Office 365, Azure Activity, etc)
+Non billable data sources (e.g. Office 365, Azure Activity, etc.)
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#connectors" data-toggle="tab">Connectors</a></li>
