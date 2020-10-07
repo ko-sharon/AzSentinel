@@ -78,7 +78,7 @@ These brief instructions will help you get started quickly with Azure Sentinel -
 </table>
 
 ### 2 - Enable Data Connectors
-{% include tip.html content="Refer to <a alt='SOCinaBOX' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_overview.html'>SOC in a Box</a> for guidance on which data connectors to enable (based on data sources relevant to you)." %}
+{% include tip.html content="Refer to <a alt='SOCinaBOX' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_overview.html'>SOC in a Box</a> for guidance on which Data Connectors to enable (based on data sources relevant to you)." %}
 
 <table>
 <colgroup>
@@ -114,6 +114,42 @@ These brief instructions will help you get started quickly with Azure Sentinel -
 <td markdown="span">2D</td>
 <td markdown="span">After the data connector has been successfully enabled, refresh the page. Depending on the data connector, once data starts flowing in you will see the following.</td>
 <td markdown="span">![2d](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/implementation/config_2d.png?raw=true)</td>
+</tr>
+</tbody>
+</table>
+
+### 3 - Enable Analytics Rules
+{% include tip.html content="Refer to <a alt='SOCinaBOX' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_overview.html'>SOC in a Box</a> for guidance on which Analytics Rules to enable (based on data sources relevant to you)." %}
+
+<table>
+<colgroup>
+<col width="10%" />
+<col width="30%" />
+<col width="60%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>S/N</th>
+<th>Step</th>
+<th>Illustration</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td markdown="span">3A</td>
+<td markdown="span">In the Azure Sentinel instance, navigate to **Analytics Rules**. Click on the **Rule templates** tab and search for the desired rule. Click on the rule and select **Create rule**.</td>
+<td markdown="span">
+![3a](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/implementation/config_3a.png?raw=true)</td>
+</tr>
+<tr>
+<td markdown="span">3B</td>
+<td markdown="span">The template Analytics Rules are pre-populated, so if you do not wish to amend any parameter you can directly click onto **Review and create**. Otherwise, navigate to the relevant tabs to modify parameters accordingly.</td>
+<td markdown="span">![3b](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/implementation/config_3b.png?raw=true)</td>
+</tr>
+<tr>
+<td markdown="span">3C</td>
+<td markdown="span">Once validation is passed, click on **Create**.</td>
+<td markdown="span">![3c](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/implementation/config_3c.png?raw=true)</td>
 </tr>
 </tbody>
 </table>
