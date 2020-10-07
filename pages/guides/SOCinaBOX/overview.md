@@ -32,11 +32,15 @@ The intention of SOC in a Box is to provide guidance around what configurations 
 </tr>
 <tr>
 <td markdown="span"><a alt='M365' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_m365.html'>M365</a></td>
-<td markdown="span">Common Microsoft suite data sources (e.g. AAD, Office 365, MTP solutions, etc)</td>
+<td markdown="span">Common Microsoft suite data sources (e.g. AAD, Office 365, MTP solutions, etc.)</td>
 </tr>
 <tr>
 <td markdown="span"><a alt='Infra' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_infra.html'>Infrastructure</a></td>
 <td markdown="span">Common infrastructure data sources (e.g. Windows Security Events, Syslog, etc.)</td>
+</tr>
+  <tr>
+<td markdown="span"><a alt='NonBillable' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_nonbillabe.html'>Non Billable Sources</a></td>
+<td markdown="span">Non billable data sources (e.g. Office 365, Azure Activity, etc.)</td>
 </tr>
 </tbody>
 </table>
