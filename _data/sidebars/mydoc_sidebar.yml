@@ -49,6 +49,10 @@ entries:
           url: /SOCinaBOX_infra.html
           output: web, pdf
 
+        - title: Non Billable
+          url: /SOCinaBOX_nonbillable.html
+          output: web, pdf
+
   - title: Frameworks
     output: web, pdf
     folderitems:
