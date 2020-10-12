@@ -9,7 +9,7 @@ toc: false
 
 ## Azure Content Package
 
-Common Azure services data (e.g. Azure Activity, NSG Flow logs, diagnostic logs, etc.)
+Common Azure services data (e.g. Azure Activity, Azure Security Center, Azure Firewall, etc.)
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#connectors" data-toggle="tab">Connectors</a></li>
