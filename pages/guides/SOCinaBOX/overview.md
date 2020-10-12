@@ -39,7 +39,7 @@ The intention of SOC in a Box is to provide guidance around what configurations 
 <td markdown="span">Common infrastructure data sources (e.g. Windows Security Events, Syslog, etc.)</td>
 </tr>
   <tr>
-<td markdown="span"><a alt='NonBillable' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_nonbillabe.html'>Non Billable Sources</a></td>
+<td markdown="span"><a alt='NonBillable' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_nonbillable.html'>Non Billable Sources</a></td>
 <td markdown="span">Non billable data sources (e.g. Office 365, Azure Activity, etc.)</td>
 </tr>
 </tbody>
