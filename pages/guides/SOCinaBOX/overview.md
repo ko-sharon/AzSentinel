@@ -28,7 +28,7 @@ The intention of SOC in a Box is to provide guidance around what configurations 
 <tbody>
 <tr>
 <td markdown="span"><a alt='Azure' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_azure.html'>Azure</a></td>
-<td markdown="span">Common Azure services data (e.g. Azure Activity, NSG Flow logs, diagnostic logs, etc.)</td>
+<td markdown="span">Common Azure services data (e.g. Azure Activity, Azure Security Center, Azure Firewall, etc.)</td>
 </tr>
 <tr>
 <td markdown="span"><a alt='M365' href='https://ko-sharon.github.io/AzSentinel/SOCinaBOX_m365.html'>M365</a></td>
