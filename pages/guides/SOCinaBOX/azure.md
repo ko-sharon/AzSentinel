@@ -9,7 +9,9 @@ toc: false
 
 ## Azure Content Package
 
-Common Azure services data (e.g. Azure Activity, Azure Security Center, Azure Firewall, etc.)
+Common Azure services data (e.g. Azure Activity, Azure Security Center, Azure Firewall, etc.).
+
+For a quickstart guide on how to enable Data Connectors / Analytics Rules / Workbooks, click <a alt='implementation' href='https://ko-sharon.github.io/AzSentinel/guides_implementation.html'>here</a>.
 
 <ul id="profileTabs" class="nav nav-tabs">
     <li class="active"><a class="noCrossRef" href="#connectors" data-toggle="tab">Connectors</a></li>
