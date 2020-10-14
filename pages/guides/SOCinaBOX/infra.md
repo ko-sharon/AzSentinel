@@ -57,7 +57,6 @@ For a quickstart guide on how to enable Data Connectors / Analytics Rules / Work
 <li> Powershell Empire cmdlets seen in command line</li>
 <li> User account enabled and disabled within 10 mins</li>
 <li> Rare RDP Connections</li>
-<li> Scheduled Security Events</li>
 <li> Network endpoint to host executable correlation</li>
 <li> AD account with don't expire password - disabled</li>
 <li> New internet-exposed SSH endpoints</li>
