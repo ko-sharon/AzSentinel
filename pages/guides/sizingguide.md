@@ -29,15 +29,15 @@ While the total ingestion of data into Azure Sentinel can be seen by navigating 
 This query will calculate the Total Daily Volume (MB) of Billable and Non-Billable data sources ingested, over a 30-day Average.
 
 ```
-// To calculate average daily log size (MB)
+// To calculate average daily log size (GB)
 union withsource = source * 
 | where TimeGenerated >= startofday(ago(30d)) and TimeGenerated < startofday(now())
 | summarize
-BillableMB = (sumif(_BilledSize, _IsBillable == "True")/1024/1024), 
-NotBillableMB = (sumif(_BilledSize, _IsBillable == "False")/1024/1024)
+BillableGB = (sumif(_BilledSize, _IsBillable == "True")/1024/1024/1024), 
+NotBillableGB = (sumif(_BilledSize, _IsBillable == "False")/1024/1024/1024)
 by Day = bin(startofday(TimeGenerated), 1d)
-| summarize MonthlyBillableMB = sum(BillableMB), MonthlyNotBillableMB = sum(NotBillableMB) //Total size of Billable and Non-Billable sources over 30 days
-| project AvgDailyBillableMB = round(MonthlyBillableMB/30,0), AvgDailyNotBillableMB = round(MonthlyNotBillableMB/30,0) //Avg Daily Log Size of Billable and Non-Billable sources
+| summarize MonthlyBillableGB = sum(BillableGB), MonthlyNotBillableGB = sum(NotBillableGB) //Total size of Billable and Non-Billable sources over 30 days
+| project AvgDailyBillableGB = round(MonthlyBillableGB/30,0), AvgDailyNotBillableGB = round(MonthlyNotBillableGB/30,0) //Avg Daily Log Size of Billable and Non-Billable sources
 ```
 ![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AvgDailyMBBillableNonBillable.png?raw=true)
 
@@ -46,12 +46,12 @@ by Day = bin(startofday(TimeGenerated), 1d)
 This query will calculate the Daily Volume (MB) of Billable and Non-Billable data ingested, per Data Source, over a 30-day Average.
 
 ```
-// To view average daily log size by source (MB)
+// To view average daily log size by source (GB)
 union withsource = source * 
 | where TimeGenerated >= startofday(ago(30d)) and TimeGenerated < startofday(now())
 | summarize
-AvgDailyBillableMB = round(sumif(_BilledSize, _IsBillable == "True")/1024/1024, 0)/30, 
-AvgDailyNotBillableMB = round(sumif(_BilledSize, _IsBillable == "False")/1024/1024, 0)/30
+AvgDailyBillableMB = round(sumif(_BilledSize, _IsBillable == "True")/1024/1024/1024, 0)/30, 
+AvgDailyNotBillableMB = round(sumif(_BilledSize, _IsBillable == "False")/1024/1024/1024, 0)/30
 by source
 ```
 ![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AvgDailyMBperDataSource.png?raw=true)
@@ -61,12 +61,12 @@ by source
 This query will calculate the Total Daily MB of Billable and Non-Billable data sources ingested, over the past 30 days.
 
 ```
-// To view logs by day (MB)
+// To view logs by day (GB)
 union withsource = source * 
 | where TimeGenerated >= startofday(ago(30d)) and TimeGenerated < startofday(now())
 | summarize
-BillableMB = round(sumif(_BilledSize, _IsBillable == "True")/1024/1024, 0), 
-NotBillableMB = round(sumif(_BilledSize, _IsBillable == "False")/1024/1024, 0)
+BillableMB = round(sumif(_BilledSize, _IsBillable == "True")/1024/1024/1024, 0), 
+NotBillableMB = round(sumif(_BilledSize, _IsBillable == "False")/1024/1024/1024, 0)
 by Day = bin(startofday(TimeGenerated), 1d)
 ```
 ![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AbsDailyMBBillableNonBillable.png?raw=true)
