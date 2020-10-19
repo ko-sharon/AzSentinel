@@ -46,13 +46,13 @@ by Day = bin(startofday(TimeGenerated), 1d)
 This query will calculate the Daily Volume (MB) of Billable and Non-Billable data ingested, per Data Source, over a 30-day Average.
 
 ```
-// To view logs by day (MB)
+// To view average daily log size by source (MB)
 union withsource = source * 
 | where TimeGenerated >= startofday(ago(30d)) and TimeGenerated < startofday(now())
 | summarize
-BillableMB = round(sumif(_BilledSize, _IsBillable == "True")/1024/1024, 0), 
-NotBillableMB = round(sumif(_BilledSize, _IsBillable == "False")/1024/1024, 0)
-by Day = bin(startofday(TimeGenerated), 1d)
+AvgDailyBillableMB = round(sumif(_BilledSize, _IsBillable == "True")/1024/1024, 0)/30, 
+AvgDailyNotBillableMB = round(sumif(_BilledSize, _IsBillable == "False")/1024/1024, 0)/30
+by source
 ```
 ![alt text](https://github.com/ko-sharon/AzSentinel/blob/gh-pages/images/guides/Sizing_AvgDailyMBperDataSource.png?raw=true)
 
