@@ -106,6 +106,6 @@ SigninLogs
 | extend FailureOrSuccess = iff(ResultType in ("0", "50125", "50140", "70043", "70044"), "Success", "Failure")
 ```
 
-### SigninLogs - Error Code Lookup
-For more information on any specific Error Code, lookup the number in <a alt='ErrorCode' href='https://login.microsoftonline.com/error'>this link</a>.
+### SigninLogs - Error Code Description
+For more information on any specific Error Code, look up the number in <a alt='ErrorCode' href='https://login.microsoftonline.com/error'>this link</a>.
 
