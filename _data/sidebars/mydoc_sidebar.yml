@@ -85,8 +85,8 @@ entries:
       url: /schema_MSschema.html
       output: web, pdf
 
-    - title: Azure AD
-      url: /schema_AzureAD.html
+    - title: Authentication
+      url: /schema_authentication.html
       output: web, pdf   
 
       subfolders:
