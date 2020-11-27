@@ -109,4 +109,4 @@ SigninLogs
 ### SigninLogs - Error Code Description
 For more information on any specific Error Code, look up the number in <a alt='ErrorCode' href='https://login.microsoftonline.com/error'>this link</a>.
 
-![alt text](https://raw.githubusercontent.com/ko-sharon/AzSentinel/gh-pages/images/schema/SigninLogsErrorCode.png)
+![alt text](https://raw.githubusercontent.com/ko-sharon/AzSentinel/gh-pages/images/schema/SigninLogErrorCode.png)
