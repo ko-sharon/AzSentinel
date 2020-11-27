@@ -98,10 +98,14 @@ Within these Audit Logon Activities, two other columns of interest exist - (A) L
 ## Azure AD Authentication
 
 ### SigninLogs - Succeeded or Failed?
-Within the Azure AD SigninLogs table, the column ResultType 
+Within the Azure AD SigninLogs table, the column ResultType contains the Error Code of the sign in activity. To extend a column signifying whether it was a successful or failed login:
 
 ```
 // To add a column representing successful / failed login status
 SigninLogs
 | extend FailureOrSuccess = iff(ResultType in ("0", "50125", "50140", "70043", "70044"), "Success", "Failure")
 ```
+
+### SigninLogs - Error Code Lookup
+For more information on any specific Error Code, lookup the number in <a alt='ErrorCode' href='https://login.microsoftonline.com/error'>this link</a>.
+
