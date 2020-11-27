@@ -81,7 +81,7 @@ entries:
     output: web, pdf
     folderitems:
     
-    - title: MS/Azure Schema
+    - title: (Most) Microsoft/Azure Schema
       url: /schema_MSschema.html
       output: web, pdf
 
