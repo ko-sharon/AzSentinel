@@ -1,13 +1,11 @@
 ---
 title: "Authentication"
-keywords: coming soon
-tags: [coming_soon]
 sidebar: mydoc_sidebar
 permalink: schema_authentication.html
-toc: false
+toc: true
 ---
 
-## Coming Soon
+## SecurityEvent Authentication
 
 ### Audit Logon Activities
 Within the windows SecurityEvent logs, there are <a alt='auditlogon' href='https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/audit-logon'>a few Event IDs</a> that provide you a view of user attempts (successful or failed) to log on to a computer and how.
@@ -95,3 +93,15 @@ Within these Audit Logon Activities, two other columns of interest exist - (A) L
 </tr>
 </tbody>
 </table>
+
+
+## Azure AD Authentication
+
+### SigninLogs - Succeeded or Failed?
+Within the Azure AD SigninLogs table, the column ResultType 
+
+```
+// To add a column representing successful / failed login status
+SigninLogs
+| extend FailureOrSuccess = iff(ResultType in ("0", "50125", "50140", "70043", "70044"), "Success", "Failure")
+```
