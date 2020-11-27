@@ -81,12 +81,12 @@ entries:
     output: web, pdf
     folderitems:
     
-    - title: AzureActivity
-      url: /schema_azureactivity.html
+    - title: MS/Azure Schema
+      url: /schema_MSschema.html
       output: web, pdf
 
-    - title: OfficeActivity
-      url: /schema_officeactivity.html
+    - title: Azure AD
+      url: /schema_AzureAD.html
       output: web, pdf   
 
       subfolders:
