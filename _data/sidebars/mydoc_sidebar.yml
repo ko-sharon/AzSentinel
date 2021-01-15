@@ -76,11 +76,7 @@ entries:
     - title: Windows Event Logging
       url: /adv_winevents.html
       output: web, pdf
-      
-     - title: SPL to KQL
-      url: /adv_spltokql.html
-      output: web, pdf
-
+     
   - title: Data Schema
     output: web, pdf
     folderitems:
@@ -109,4 +105,8 @@ entries:
 
     - title: KQL Cheat Sheet
       url: /ref_kqlcheatsheet.html
+      output: web, pdf
+      
+    - title: SPL to KQL
+      url: /ref_spltokql.html
       output: web, pdf
