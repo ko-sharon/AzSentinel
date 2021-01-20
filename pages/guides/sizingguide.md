@@ -71,4 +71,18 @@ by Day = bin(startofday(TimeGenerated), 1d)
 ```
 ![alt text](https://raw.githubusercontent.com/ko-sharon/AzSentinel/gh-pages/images/guides/Sizing_AbsDailyMBBillableNonBillable.png)
 
+### Absolute Daily GB: Per Data Source
+
+This query will calculate the Absolute Daily Volume (GB) per Data Source, over a 30-day Average.
+
+```
+// To view absolute daily log size by source (GB)
+union withsource = source * 
+| where TimeGenerated >= startofday(ago(30d)) and TimeGenerated < startofday(now())
+| summarize
+AbsDailyGB = round(sum(_BilledSize)/1024/1024/1024, 0)/30
+by source, Day = bin(startofday(TimeGenerated), 1d)
+```
+![alt text](https://raw.githubusercontent.com/ko-sharon/AzSentinel/gh-pages/images/guides/Sizing_AbsDailyGBperDataSource.png)
+
 {% include links.html %}
