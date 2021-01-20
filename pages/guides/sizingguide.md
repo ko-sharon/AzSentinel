@@ -39,7 +39,7 @@ by Day = bin(startofday(TimeGenerated), 1d)
 | summarize MonthlyBillableGB = sum(BillableGB), MonthlyNotBillableGB = sum(NotBillableGB) //Total size of Billable and Non-Billable sources over 30 days
 | project AvgDailyBillableGB = round(MonthlyBillableGB/30,0), AvgDailyNotBillableGB = round(MonthlyNotBillableGB/30,0) //Avg Daily Log Size of Billable and Non-Billable sources
 ```
-![alt text](https://raw.githubusercontent.com/ko-sharon/AzSentinel/gh-pages/images/guides/Sizing_AbsDailyMBBillableNonBillable.png)
+![alt text](https://raw.githubusercontent.com/ko-sharon/AzSentinel/gh-pages/images/guides/Sizing_AvgDailyGBBillableNonBillable.png)
 
 ### Average Daily GB: Per Data Source
 
@@ -54,7 +54,7 @@ AvgDailyBillableGB = round(sumif(_BilledSize, _IsBillable == "True")/1024/1024/1
 AvgDailyNotBillableGB = round(sumif(_BilledSize, _IsBillable == "False")/1024/1024/1024, 0)/30
 by source
 ```
-![alt text](https://raw.githubusercontent.com/ko-sharon/AzSentinel/gh-pages/images/guides/Sizing_AvgDailyMBperDataSource.png)
+![alt text](https://raw.githubusercontent.com/ko-sharon/AzSentinel/gh-pages/images/guides/Sizing_AvgDailyGBperDataSource.png)
 
 ### Absolute Daily GB: Billable vs Non-Billable
 
@@ -69,7 +69,7 @@ BillableGB = round(sumif(_BilledSize, _IsBillable == "True")/1024/1024/1024, 0),
 NotBillableGB = round(sumif(_BilledSize, _IsBillable == "False")/1024/1024/1024, 0)
 by Day = bin(startofday(TimeGenerated), 1d)
 ```
-![alt text](https://raw.githubusercontent.com/ko-sharon/AzSentinel/gh-pages/images/guides/Sizing_AbsDailyMBBillableNonBillable.png)
+![alt text](https://raw.githubusercontent.com/ko-sharon/AzSentinel/gh-pages/images/guides/Sizing_AbsDailyGBBillableNonBillable.png)
 
 ### Absolute Daily GB: Per Data Source
 
