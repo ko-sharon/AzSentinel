@@ -54,7 +54,7 @@ AvgDailyBillableGB = round(sumif(_BilledSize, _IsBillable == "True")/1024/1024/1
 AvgDailyNotBillableGB = round(sumif(_BilledSize, _IsBillable == "False")/1024/1024/1024, 0)/30
 by source
 ```
-![alt text](https://raw.githubusercontent.com/ko-sharon/AzSentinel/gh-pages/images/guides/Sizing_AvgDailyGBperDataSource.png)
+![alt text](https://raw.githubusercontent.com/ko-sharon/AzSentinel/gh-pages/images/guides/Sizing_AvgDailyMBperDataSource.png)
 
 ### Absolute Daily GB: Billable vs Non-Billable
 
@@ -69,6 +69,6 @@ BillableGB = round(sumif(_BilledSize, _IsBillable == "True")/1024/1024/1024, 0),
 NotBillableGB = round(sumif(_BilledSize, _IsBillable == "False")/1024/1024/1024, 0)
 by Day = bin(startofday(TimeGenerated), 1d)
 ```
-![alt text](https://raw.githubusercontent.com/ko-sharon/AzSentinel/gh-pages/images/guides/Sizing_AbsDailyGBBillableNonBillable.png)
+![alt text](https://raw.githubusercontent.com/ko-sharon/AzSentinel/gh-pages/images/guides/Sizing_AbsDailyMBBillableNonBillable.png)
 
 {% include links.html %}
