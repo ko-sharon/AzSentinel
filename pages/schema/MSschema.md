@@ -5,7 +5,7 @@ permalink: schema_MSschema.html
 toc: false
 ---
 
-## Schema of (Most) Microsoft/Azure Data Sources
+## Schema of (Commonly Used) Microsoft/Azure Data Sources in Azure Sentinel
 
 In order to interpret the data or write better Analytics Rules, it is important to first understand what information is made available within each data source (ie. what are the columns) and what does each field represent (ie. column description). 
 
