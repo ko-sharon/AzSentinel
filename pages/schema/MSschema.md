@@ -32,6 +32,7 @@ A useful reference for most Microsoft or Azure data sources can be found within 
 * <a alt='SecurityBaselineSummary' href='https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/SecurityBaselineSummary'>SecurityBaselineSummary</a>
 * <a alt='SecurityDetection' href='https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/SecurityDetection'>SecurityDetection</a>
 * <a alt='SecurityEvent' href='https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/SecurityEvent'>SecurityEvent</a>
+* <a alt='SecurityIncident' href='https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/SecurityIncident'>SecurityIncident</a>
 * <a alt='SecurityIoTRawEvent' href='https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/SecurityIoTRawEvent'>SecurityIoTRawEvent</a>
 * <a alt='SecurityRecommendation' href='https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/SecurityRecommendation'>SecurityRecommendation</a>
 * <a alt='SigninLogs' href='https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/SigninLogs'>SigninLogs</a>
