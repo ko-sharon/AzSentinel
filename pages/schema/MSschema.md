@@ -20,6 +20,7 @@ A useful reference for most Microsoft or Azure data sources can be found within 
 * <a alt='CommonSecurityLog' href='https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/CommonSecurityLog'>CommonSecurityLog</a>
 * <a alt='DeviceFileEvents' href='https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/DeviceFileEvents'>DeviceFileEvents</a>
 * <a alt='DHCPActivity' href='https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/DHCPActivity'>DHCPActivity</a>
+* <a alt='Dynamics365Activity' href='https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/Dynamics365Activity'>Dynamics365Activity</a>
 * <a alt='HDInsightSecurityLogs' href='https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/HDInsightSecurityLogs'>HDInsightSecurityLogs</a>
 * <a alt='HuntingBookmark' href='https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/HuntingBookmark'>HuntingBookmark</a>
 * <a alt='LinuxAuditLog' href='https://docs.microsoft.com/en-us/azure/azure-monitor/reference/tables/LinuxAuditLog'>LinuxAuditLog</a>
